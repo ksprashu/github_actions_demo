@@ -3,3 +3,4 @@ Demo to learn Github Actions
 
 Changelist:
 - Update readme in feature branch.
+- Oops! Added some vulnerabilities.
