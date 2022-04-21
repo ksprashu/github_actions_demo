@@ -1,0 +1,12 @@
+name: Simulating a test runner
+on: 
+  pull_request: 
+    types: [opened, review_requested]
+jobs:
+  simulate_test_run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Simulate Test
+        run: echo 'A test run has been done'
